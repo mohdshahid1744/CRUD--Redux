@@ -1,0 +1,76 @@
+.div {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.loginh2 {
+  margin-bottom: 20px;
+  color: #333333;
+  font-size: 24px;
+  text-align: center;
+}
+
+.loginform {
+  display: flex;
+  flex-direction: column;
+}
+
+.email, .password {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.login-input {
+  width: 95%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.login-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.error-message {
+  color: #ff0000;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.login {
+  width: 100%;
+  padding: 12px 15px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login:hover {
+  background-color: #0056b3;
+}
+
+.linkstyle {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #007bff;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.linkstyle:hover {
+  color: #0056b3;
+}

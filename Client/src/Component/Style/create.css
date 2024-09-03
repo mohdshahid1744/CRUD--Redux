@@ -1,0 +1,56 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-label {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .invalid-feedback {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 4px;
+  }
+  
+  .btn-primary {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Optional: Add additional styling to make the form look more appealing */
+  .mb-3 {
+    margin-bottom: 20px;
+  }
+  
+  .mt-5 {
+    margin-top: 50px;
+  }
+  
+  /* Add more custom styles as needed */
+  
